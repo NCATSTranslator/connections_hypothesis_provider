@@ -9,9 +9,6 @@ In its current version, CHP supports queries relating to genetic, therapeutic, a
 
 For more details about the service CHP provides please see here: https://github.com/di2ag/chp_api
 
-## How to Use our Service
-We encourage anyone looking for tooling/instructions, to interface with our API, to the following repository, CHP Client, https://github.com/di2ag/chp_client. CHP Client is a lightweight Python client that interfaces CHP. It is meant to be an easy-to-use wrapper utility to both run and build TRAPI queries that the CHP web service will understand. 
-
 # Terms and Definitions
 The greater NCATS consortium uses a series of terms (that we have adopted) to convey meaning quickly. A link to those terms and their definitions are available here: https://docs.google.com/spreadsheets/d/1C8hKXacxtQC5UzXI4opQs1r4pBJ_5hqgXrZH_raYQ4w/edit#gid=1581951609
 We extend this list local to our KP (Look, here is an NCATS term right here!) with the following terms: 
@@ -25,28 +22,17 @@ We extend this list local to our KP (Look, here is an NCATS term right here!) wi
 •	Bayesian Knowledge Base – BKB
 
 # Smart API
-CHP is registered with Smart API: https://smart-api.info/ui/855adaa128ce5aa58a091d99e520d396
+CHP is registered with Smart API: [https://smart-api.info/ui/855adaa128ce5aa58a091d99e520d396](http://smart-api.info/registry?q=412af63e15b73e5a30778aac84ce313f)
 
 # Open Endpoints
 * [query](query.md) : `POST /query/`
-* [predicates](predicates.md) : `GET /predicates/`
-* [curies](curies.md) : `GET /curies/`
+* [predicates](predicates.md) : `GET /meta_knowledge_graph/`
 
-# How To Use & Use-cases
-We encourage anyone looking for tooling/instructions, to interface with our API, to the following repository, CHP Client, https://github.com/di2ag/chp_client. CHP Client is a lightweight Python client that interfaces CHP. It is meant to be an easy-to-use wrapper utility to both run and build TRAPI queries that the CHP web service will understand. 
-
-Our API is in active developement and is currently following [Translator Reasoner API standards 1.0.0](https://github.com/NCATSTranslator/ReasonerAPI)
-
-Our API is currently live at: [chp.thayer.dartmouth.edu](http://chp.thayer.dartmouth.edu/)
 
 # Other Notable Links
 Other notable links:
 
-Our roadmap outlining or KP’s milestones and the progression of those milestones https://github.com/di2ag/Connections-Hypothesis-Provider-Roadmap
-
 Our API Repository: https://github.com/di2ag/chp_api
-
-Our CHP Client repository: https://github.com/di2ag/chp_client
 
 Our NCATS Wiki Page: https://github.com/NCATSTranslator/Translator-All/wiki/Connections-Hypothesis-Provider
 
